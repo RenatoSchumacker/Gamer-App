@@ -1,15 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import {Component} from '@angular/core';
 
+/**
+ * @title Basic toolbar
+ */
 @Component({
-  selector: 'app-header',
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.css']
+  selector: 'toolbar-basic-example',
+  templateUrl: 'toolbar-basic-example.html',
+  styleUrls: ['toolbar-basic-example.css'],
 })
-export class HeaderComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
-}
+export class ToolbarBasicExample {}
