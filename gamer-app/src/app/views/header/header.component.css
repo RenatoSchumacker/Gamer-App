@@ -1,4 +1,10 @@
-.example-spacer {
-    flex: 1 1 auto;
-  }
-  
+.mat-tool-row {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+    
+}

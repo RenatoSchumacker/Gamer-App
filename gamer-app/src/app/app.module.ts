@@ -8,19 +8,23 @@ import { HeaderComponent} from './views/header/header.component';
 import { HomeComponent } from './views/home/home.component';
 import { MatToolbarModule} from '@angular/material/toolbar';
 import { ToolbarBasicExampleComponent } from './views/toolbar-basic-example/toolbar-basic-example.component';
+import {MatButtonModule} from '@angular/material/button';
+import { JogosComponent } from './views/jogos/jogos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    ToolbarBasicExampleComponent
+    ToolbarBasicExampleComponent,
+    JogosComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
