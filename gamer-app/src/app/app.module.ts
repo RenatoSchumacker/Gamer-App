@@ -10,6 +10,7 @@ import { MatToolbarModule} from '@angular/material/toolbar';
 import { ToolbarBasicExampleComponent } from './views/toolbar-basic-example/toolbar-basic-example.component';
 import {MatButtonModule} from '@angular/material/button';
 import { JogosComponent } from './views/jogos/jogos.component';
+import { FooterComponent } from './views/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { JogosComponent } from './views/jogos/jogos.component';
     HeaderComponent,
     HomeComponent,
     ToolbarBasicExampleComponent,
-    JogosComponent
+    JogosComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

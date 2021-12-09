@@ -5,7 +5,7 @@ import { JogosComponent } from './views/jogos/jogos.component';
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'home',
     component: HomeComponent
   },
   {
